@@ -1,0 +1,22 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "Atividade do curso \"Do zero ao fullStack\" do @WOliveiras\r \"nova linha\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielbastos13/curriculo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielbastos13/curriculo/issues"
+  },
+  "homepage": "https://github.com/gabrielbastos13/curriculo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
