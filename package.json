@@ -4,7 +4,7 @@
   "description": "Atividade do curso \"Do zero ao fullStack\" do @WOliveiras\r \"nova linha\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node node_modules/nodemon/bin/nodemon.js app"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/gabrielbastos13/curriculo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
